@@ -1,0 +1,46 @@
+/*
+CSS - Cascading StyleSheet
+*/
+body {
+    background : #e5e5e5;
+    color : #25282B;
+
+    font-family: 'Montserrat', sans-serif;
+
+    margin: 0;
+}
+
+
+a{
+    color: #ff5E84;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #ff5E84;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+p, .description{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+
+#container{
+    width: 90%;
+    max-width: 980px;
+    margin: 40px auto;
+    display: flex;
+}
+
+#intro{
+    width: 300px;
+    margin-right: 20px;
+}
+
+main{
+    margin: 32px 0;
+}
